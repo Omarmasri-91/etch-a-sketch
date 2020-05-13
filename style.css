@@ -1,0 +1,20 @@
+#container {
+    background: gray;
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(16, 20px);
+    
+}
+
+.squareoff {
+    height: 20px;
+    width: 20px;
+    background: rgb(75, 133, 52);
+}
+
+
+.squareon {
+    height: 20px;
+    width: 20px;
+    background: pink;
+}
